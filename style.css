@@ -7,9 +7,9 @@ body, html {
   margin: 0;
 }
 
-nav a {
+a {
   text-decoration: none;
-  color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 nav a:hover {
@@ -17,9 +17,20 @@ nav a:hover {
 }
 
 .flex-child-nav {
-  color: #FFFFFF;
+	color: #FFFFFF;
   margin: 50px 0px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.flex-child-nav-contact {
+  margin: 50px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.flex-child-nav-contact a {
+	color: #000000;
+}
+.flex-child-nav-contact a:hover {
+	color: #B2B6BF;
 }
 
 .flex-child-footer {
@@ -29,7 +40,6 @@ nav a:hover {
 .bradys-logo {
   font-family: 'Playfair Display', serif;
   font-size: 200%;
-  color: #FFFFFF;
   margin: 40px 0px;
 }
 
@@ -41,18 +51,47 @@ nav a:hover {
   background-size: cover;
 }
 
+.contactHeroDiv {
+	background-image: url("images/contacthero.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .lower-homepage {
   margin: 0px 0px;
 }
 
-#flex-parent-nav {
+.contactDivs {
+	background-color: #B2B6BF;
+	border-radius: 10px;
+	width: 20%;
+	height: 50px;
+	margin: 20px auto;
+	background: rgba(178, 182, 191, .5);
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contactDivs:hover {
+	background: rgba(178, 182, 191, 1);
+}
+
+.contactText {
+	opacity: 1;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 120%;
+}
+
+.flex-parent-nav {
   display: flex;
   justify-content: space-between;
   margin: 0px 150px;
 }
 
 #lower-homepage-banner {
-
   font-family: 'Montserrat', sans-serif;
   font-size: 200%;
   text-align: center;
@@ -97,4 +136,16 @@ nav a:hover {
 
 #footer-text {
   margin: 20px 0px;
+}
+
+#bradys-logo-contact {
+	font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  margin: 40px 0px;
+}
+#bradys-logo-contact a {
+	color: #000000;
+}
+#bradys-logo-contact a:hover {
+	color: #B2B6BF;
 }
