@@ -1,5 +1,5 @@
 html {
-  background-color: #E6E5E3;
+  /*background-color: #E6E5E3;*/
 }
 
 body, html {
@@ -51,9 +51,13 @@ nav a:hover {
   background-size: cover;
 }
 
+#home-body-background {
+	background-color: #E6E5E3;
+}
+
 .contactHeroDiv {
 	background-image: url("images/contacthero.jpg");
-  height: 100%;
+  height: 105%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,6 +93,17 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   margin: 0px 150px;
+}
+
+.social-media-flex-child {
+	width: 100px;
+	height: 100px;
+}
+
+#social-media-flex-parent {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
 }
 
 #lower-homepage-banner {
@@ -148,4 +163,101 @@ nav a:hover {
 }
 #bradys-logo-contact a:hover {
 	color: #B2B6BF;
+}
+
+/* id's and classes for artist page below */
+
+#artist-flex-parent {
+	display: flex;
+  justify-content: space-around;
+  margin: 100px 100px;
+	height: 50%;
+}
+
+#profile-pic {
+	height: auto;
+	width: 500px;
+}
+
+#artist-text {
+	width: 75%;
+}
+
+#artist-body-background {
+	background-color: #E6E5E3;
+}
+
+.flex-child-nav-artist {
+  margin: 50px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.flex-child-nav-artist a {
+	color: #000000;
+}
+.flex-child-nav-artist a:hover {
+	color: #B2B6BF;
+}
+
+#bradys-logo-artist {
+	font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  margin: 40px 0px;
+}
+#bradys-logo-artist a {
+	color: #000000;
+}
+#bradys-logo-artist a:hover {
+	color: #B2B6BF;
+}
+
+/* Journal page content */
+
+.flex-child-nav-journal {
+  margin: 50px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.flex-child-nav-journal a {
+	color: #000000;
+}
+.flex-child-nav-journal a:hover {
+	color: #B2B6BF;
+}
+
+#bradys-logo-journal {
+	font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  margin: 40px 0px;
+}
+#bradys-logo-journal a {
+	color: #000000;
+}
+#bradys-logo-journal a:hover {
+	color: #B2B6BF;
+}
+
+#main-journal-div {
+	height: auto;
+}
+
+#body-bg-image {
+	background-image: url("images/DSC_3901.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.journal-entry {
+	border-radius: 10px;
+	width: 80%;
+	height: auto;
+	margin: 20px auto 50px auto;
+	padding: 20px;
+	background: rgba(178, 182, 191, 1);
+}
+
+.journal-title {
+	margin: 50px auto 10px 10%;
+	font-size: 200%;
+	color: #FFF;
 }
