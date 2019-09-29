@@ -9,22 +9,62 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 
   </head>
-  <body>
+  <body id="gallery-body">
 
     <nav>
       <div class="flex-parent-nav">
-        <div class="bradys-logo"><a href="index.html">Brady Iverson<br>Creative Landscapes</a></div>
-        <div class="flex-child-nav"><a href="index.html">Home</a></div>
-        <div class="flex-child-nav"><a href="gallery.html">The Gallery</a></div>
-        <div class="flex-child-nav"><a href="artist.html">The Artist</a></div>
-        <div class="flex-child-nav"><a href="journal.html">Journal</a></div>
-        <div class="flex-child-nav"><a href="contact.html">Contact</a></div>
+        <div id="bradys-logo-gallery"><a href="index.html">Brady Iverson<br>Creative Landscapes</a></div>
+        <div class="flex-child-nav-gallery"><a href="index.html">Home</a></div>
+        <div class="flex-child-nav-gallery"><a href="gallery.html">The Gallery</a></div>
+        <div class="flex-child-nav-gallery"><a href="artist.html">The Artist</a></div>
+        <div class="flex-child-nav-gallery"><a href="journal.html">Journal</a></div>
+        <div class="flex-child-nav-gallery"><a href="contact.html">Contact</a></div>
       </div>
     </nav>
 
-  <div id="gallerydiv">
-  	<a data-flickr-embed="true"  href="https://www.flickr.com/photos/166239448@N03/albums/72157710788791078" title="Brady"><img src="https://live.staticflickr.com/65535/48713868627_207b7effb2_z.jpg" width="640" height="427" alt="Brady"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-  </div>
 
+		<div class="gallery-card">
+			<a href="mountaincollection.html">
+				<div id="gallery-card-mountain">
+					<div id="mountain-title"><span id="mountain-text-static">Mountain Collection</span><span id="mountain-text-hover">•Experience beautiful mountainscapes.</span></div>
+					<div id="mountains-collection"></div>
+				</div>
+			</a>
+			<a href="europeanarchitecture.html">
+				<div id="gallery-card-architecture">
+					<div id="european-architecture-title"><span id="european-text-static">European Architecture</span><span id="european-text-hover">•View breathtaking European architecture.</span></div>
+					<div id="european-architecture"></div>
+				</div>
+			</a>
+		</div>
+
+		<div class="gallery-card">
+			<a href="watercollection.html">
+				<div id="gallery-card-water">
+					<div id="water-collection-title"><span id="water-text-static">Water Collection</span><span id="water-text-hover">•See the breathtaking water collection.</span></div>
+					<div id="water-collection"></div>
+				</div>
+			</a>
+			<a href="nationalparks.html">
+				<div id="gallery-card-parks">
+					<div id="national-parks-title"><span id="parks-text-static">National Parks</span><span id="parks-text-hover">•See our beautiful National Parks.</span></div>
+					<div id="national-parks"></div>
+				</div>
+			</a>
+		</div>
+
+		<footer>
+			<div id="flex-parent-footer">
+				<img src="images/SITELOGO.jpg" alt="Brady Iverson site logo" id="site-logo-footer">
+				<div id="footer-text">
+					<p>Copyright Brady Iverson, 2019</p>
+					<div class="flex-child-footer">
+						<div>Facebook &nbsp;</div>
+						<div>Twitter &nbsp;</div>
+						<div>Instagram</div>
+					</div>
+				</div>
+			</div>
+		</footer>
   </body>
 </html>

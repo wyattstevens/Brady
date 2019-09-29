@@ -343,3 +343,165 @@ nav a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* Gallery page content */
+
+#gallery-body {
+	background-color: #E6E5E3;
+}
+
+.flex-child-nav-gallery {
+  margin: 50px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.flex-child-nav-gallery a {
+	color: #000000;
+}
+.flex-child-nav-gallery a:hover {
+	color: #B2B6BF;
+}
+
+#bradys-logo-gallery {
+	font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  margin: 40px 0px;
+}
+#bradys-logo-gallery a {
+	color: #000000;
+}
+#bradys-logo-gallery a:hover {
+	color: #B2B6BF;
+}
+
+.flex-parent-gallery {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+#mountains-collection, #european-architecture, #water-collection, #national-parks {
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+	width: 600px;
+	height: 400px;
+	margin: 0px;
+}
+
+#mountains-collection {
+	background-image: url("images/DSC_6878.jpg");
+}
+
+#european-architecture {
+	background-image: url("images/eiffeltower.jpg");
+}
+
+#water-collection {
+	background-image: url("images/DSC_3925.jpg");
+}
+
+#national-parks {
+	background-image: url("images/DSC_2571.jpg");
+}
+
+.gallery-title-parent {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 100px;
+}
+
+#mountain-title, #european-architecture-title, #water-collection-title, #national-parks-title {
+	font-family: 'Playfair Display', serif;
+	font-size: 300%;
+	background-color: #FFF;
+	color: #000;
+	width: 600px;
+	height: 100px;
+	text-align: center;
+}
+
+#mountain-title, #european-architecture-title, #water-collection-title, #national-parks-title, #mountains-collection, #european-architecture, #water-collection, #national-parks {
+	-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+}
+
+/* All gallery hover effects */
+
+#mountain-text-hover {
+	display: none;
+}
+#european-text-hover {
+	display: none;
+}
+#water-text-hover {
+	display: none;
+}
+#parks-text-hover {
+	display: none;
+}
+
+#gallery-card-mountain:hover #mountain-title {
+	color: #FFF;
+	background-color: #484855;
+}
+#gallery-card-mountain:hover #mountain-title #mountain-text-static {
+	display: none;
+}
+#gallery-card-mountain:hover #mountain-title #mountain-text-hover {
+	display: inline;
+	font-size: 40%;
+}
+
+
+#gallery-card-architecture:hover #european-architecture-title {
+	color: #FFF;
+	background-color: #484855;
+}
+#gallery-card-architecture:hover #european-architecture-title #european-text-static {
+	display: none;
+}
+#gallery-card-architecture:hover #european-architecture-title #european-text-hover {
+	display: inline;
+	font-size: 40%;
+}
+
+
+#gallery-card-water:hover #water-collection-title {
+	color: #FFF;
+	background-color: #484855;
+}
+#gallery-card-water:hover #water-collection-title #water-text-static {
+	display: none;
+}
+#gallery-card-water:hover #water-collection-title #water-text-hover {
+	display: inline;
+	font-size: 40%;
+}
+
+
+#gallery-card-parks:hover #national-parks-title {
+	color: #FFF;
+	background-color: #484855;
+}
+#gallery-card-parks:hover #national-parks-title #parks-text-static {
+	display: none;
+}
+#gallery-card-parks:hover #national-parks-title #parks-text-hover {
+	display: inline;
+	font-size: 40%;
+}
+
+/* end of gallery hover effects */
+
+.gallery-card {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 100px auto;
+}
+.gallery-card-child {
+	display: block;
+}
